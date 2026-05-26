@@ -15,14 +15,18 @@
     <main>
         <label>
              Converter <b>de</b>
-             <select>
-                 <option>R$ Real Brasileiro</option>
+             <select class="currency-from">
+                 <option value="real">R$ Real Brasileiro</option>
+                 <option value="dolar">US$ Dólar Americano</option>
+                 <option value="euro">€ Euro</option>
+                 <option value="francoSuico">CHF Franco-Suíço</option>
             </select>
         </label>
 
          <label>
              Converter <b>para</b>
-             <select class="currency-select">
+             <select class="currency-to">
+                 <option value="real">R$ Real Brasileiro</option>
                  <option value="dolar">US$ Dólar Americano</option>
                  <option value="euro">€ Euro</option>
                  <option value="francoSuico">CHF Franco-Suíço</option>
@@ -39,13 +43,14 @@
         <section>
             <div class="currency-box">
                 <img src="./assets/real.png" alt="moeda-a-converter">
-                <p class="currency">Real</p>
+                <p class="currency" id="currency-from-name">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
+
             </div>
 
             <img class="arrow" src="./assets/arrow.png" alt="seta">
 
-            <div>
+            <div class="currency-box">
                 <img class="currency-img" src="./assets/usa.png" alt="moeda-convertida">
                 <p class="currency" id="currency-name">Dólar Americano</p>
                 <p class="currency-value">US$ 0,0</p>
