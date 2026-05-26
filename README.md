@@ -41,7 +41,7 @@ git clone https://github.com/seuusuario/converter-money.git
 cd converter-money
 
 
-## ▶️ Uso
+ ▶️ Uso
 
 1. Digite o valor em Real.
 
@@ -51,10 +51,10 @@ cd converter-money
 
 4. Veja o resultado exibido na caixa abaixo.
 
- ## 📧 Contato
+ 📧 Contato
 
-- **Autor:** Luis  
-- **GitHub:** @Luis-Abal  
-- **Email:** Luis.Abal.318798@gmail.com
+- Autor: Luis  
+- GitHub: @Luis-Abal  
+- Email: Luis.Abal.318798@gmail.com
 
 
